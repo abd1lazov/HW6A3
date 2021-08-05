@@ -41,11 +41,6 @@ public class MathTest{
 
     @Test
     public void revert() {
-        //assertEquals("bishkek hello", math.revert("hello bishkek"));
-        //assertEquals("bishkek   hello",math.revert("hello   bishkek"));
-        //assertEquals("Codify and Bishkek Bishkek",math.revert("Bishkek Bishkek and Codify"));
-        //assertEquals("bishkek", math.revert("bishkek"));
-        //assertEquals("",math.revert(""));
     }
 
     @After

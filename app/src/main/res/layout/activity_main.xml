@@ -24,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:background="@drawable/button"
         android:text="add" />
 
     <Button
@@ -31,12 +32,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:background="@drawable/button"
         android:text="subtract" />
 
     <Button
         android:id="@+id/divBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button"
         android:layout_margin="8dp"
         android:text="divide" />
 
@@ -44,6 +47,7 @@
         android:id="@+id/multiplyBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button"
         android:layout_margin="8dp"
         android:text="multiply" />
 
@@ -53,8 +57,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:textAlignment="center"
-        android:hint="result"
+        android:hint="Result"
+        android:fontFamily="sans-serif-condensed-light"
         android:textColor="@color/black"
+        android:textStyle="bold"
         android:textSize="30sp" />
 
 </LinearLayout>
